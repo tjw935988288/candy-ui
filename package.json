@@ -1,7 +1,8 @@
 {
   "name": "candy-ui",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "dist/candy-ui.umd.js",
+  "module": "src/index.js",
   "author": "mambach",
   "license": "ISC",
   "scripts": {

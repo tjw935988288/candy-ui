@@ -11,12 +11,12 @@ function resolve (dir) {
 
 module.exports = {
     entry: {
-        app: resolve('src/index.js')
+        loading: resolve('src/loading/index.js'),
+        scroller: resolve('src/scroller/index.js')
     },
     output: {
         path: resolve('dist'),
-        filename: 'candy-ui.umd.js',
-        library: 'candy-ui',
+        filename: '[name].umd.js',
         libraryExport: 'default',
         libraryTarget: 'umd'
     },
